@@ -677,10 +677,7 @@ color:#43CBFF
 `;
 initModel();
 
-// این خط‌ها رو اضافه کن
-if (typeof window.waifuReady === 'function') {
-    window.waifuReady();
-}
+if (window.waifuReady) window.waifuReady();
 
 window.downloadCap = blobDownload;
 window.initModel = initModel;
