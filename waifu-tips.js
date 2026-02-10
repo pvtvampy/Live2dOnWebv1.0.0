@@ -19,8 +19,10 @@
  ****************************************************************************************************/
 const live2d_settings = {
     // 基本设置
-    'modelUrl': 'model',                        // 存放模型的文件夹路径，末尾不需要斜杠
-    'tipsMessage': 'waifu-tips.json',           // 看板娘提示消息文件的路径，可以留空不加载
+    // آدرس پوشه مدل‌ها روی jsDelivr
+    'modelUrl': 'https://cdn.jsdelivr.net/gh/pvtvampy/Live2dOnWeb@master/model',
+    // آدرس فایل مسیج‌ها
+    'tipsMessage': 'https://cdn.jsdelivr.net/gh/pvtvampy/Live2dOnWeb@master/waifu-tips.json',
     // 模型设置
     'modelName': 'paimon',                      // 默认加载的模型名称，仅在无本地记录的情况下有效
     'modelStorage': true,                       // 记忆模型，下次打开页面会加载上次选择的模型
