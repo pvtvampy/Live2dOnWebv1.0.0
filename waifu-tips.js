@@ -20,9 +20,9 @@
 const live2d_settings = {
     // 基本设置
     // آدرس پوشه مدل‌ها روی jsDelivr
-    'modelUrl': 'https://cdn.jsdelivr.net/gh/pvtvampy/Live2dOnWeb@master/model',
+    'modelUrl': 'https://cdn.jsdelivr.net/gh/pvtvampy/Live2dOnWebv1.0.0@master/model',
     // آدرس فایل مسیج‌ها
-    'tipsMessage': 'https://cdn.jsdelivr.net/gh/pvtvampy/Live2dOnWeb@master/waifu-tips.json',
+    'tipsMessage': 'https://cdn.jsdelivr.net/gh/pvtvampy/Live2dOnWebv1.0.0@master/waifu-tips.json',
     // 模型设置
     'modelName': 'shizuku',
     'modelStorage': true,                       // 记忆模型，下次打开页面会加载上次选择的模型
